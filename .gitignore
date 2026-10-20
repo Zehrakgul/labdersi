@@ -216,5 +216,18 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# Project data and generated experiment outputs
+data/**
+!data/README.md
+results/**
+!results/README.md
+
+# Local Python environments and secrets
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
 # Streamlit
 .streamlit/secrets.toml
